@@ -548,7 +548,7 @@ class PreferencesVarietyDialog(PreferencesDialog):
         return self.read_time(
             self.ui.change_interval_text,
             self.ui.change_interval_time_unit,
-            5,
+            1,
             self.options.change_interval,
         )
 
