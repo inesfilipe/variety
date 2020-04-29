@@ -94,8 +94,8 @@ class Options:
 
             try:
                 self.change_interval = int(config["change_interval"])
-                if self.change_interval < 5:
-                    self.change_interval = 5
+                if self.change_interval < 1:
+                    self.change_interval = 1
             except Exception:
                 pass
 
