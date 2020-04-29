@@ -512,8 +512,8 @@ class PreferencesVarietyDialog(PreferencesDialog):
                 )
 
     def set_time(self, interval, text, time_unit, times=(1, 60, 60 * 60, 24 * 60 * 60)):
-        if interval < 5:
-            interval = 5
+        if interval < 1:
+            interval = 1
         x = len(times) - 1
         while times[x] > interval:
             x -= 1
