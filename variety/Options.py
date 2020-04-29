@@ -586,7 +586,7 @@ class Options:
     def set_defaults(self):
         self.change_enabled = True
         self.change_on_start = False
-        self.change_interval = 300
+        self.change_interval = 1
         self.safe_mode = False
 
         self.download_folder = os.path.join(get_profile_path(), "Downloaded")
